@@ -22,10 +22,10 @@
 <body>
 <script>
     function mapCreator(keys, values) {
-        values.reduce((acc, val) => )
-        console.log(values)
+        let val = values.filter(item => item !== 'number' )
+        console.log(val)
         const newMapCreator = new Map();
-        keys.forEach((key, i) => newMapCreator[key] = x[i]);
+        keys.forEach((key, i) => newMapCreator[key] = val[i]);
 
         return newMapCreator;
     }
