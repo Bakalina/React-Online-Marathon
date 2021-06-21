@@ -10,14 +10,15 @@
 <body>
 <script>
     function getPromise(delay, message) {
-
-        if (typeof message === "string"){
-        setTimeout(()=>{
-            console.log(message)
-        },delay)}
+        return new Promise(resolve => {
+            setTimeout(() => resolve(message), delay);
+        });
     }
 
-    getPromise(2000, 15)
+
+    getPromise(5000, "hello").then(function (data) {
+        console.log(data);
+    });
 
 </script>
 </body>
