@@ -2,17 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 10 Node, Ajax/task-ajax-dmytro-team_d13" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 10 Node, Ajax/task-node-dmytro-team_d13" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 11-12 Redux, React-Redux/task-1-middleware-enhancers-dmytro-group_d13" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 11-12 Redux, React-Redux/task-1-ui-integration-dmytro-team_d8" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 11-12 Redux, React-Redux/task-2-react-redux-dmytro-team_d8" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 11-12 Redux, React-Redux/task-2-side-effects-dmytro-group_d13" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 8 JSX, Styles. SCRUM theory/task-1-jsx-Bakalina" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 8 JSX, Styles. SCRUM theory/task-2-jsx-Bakalina" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 8 JSX, Styles. SCRUM theory/task-3-style-Bakalina" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 8 JSX, Styles. SCRUM theory/task-4-css-modules-Bakalina" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 9 React - Key, State, Props, Events/task-1-react-keys-Bakalina" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Sprint 9 React - Key, State, Props, Events/task-2-react-props-Bakalina" vcs="Git" />
   </component>
 </project>
