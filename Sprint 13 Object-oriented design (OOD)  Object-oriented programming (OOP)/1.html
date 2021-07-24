@@ -16,9 +16,25 @@
 
 <script>
 
-  function overloadedFunc(x=[1,2,3], y=2, z){
-  // your code
+    function func(a=[1,2,3], b=2) {
+         if (Array.isArray(a)) {
+            const newX = a.map(a=>(a+b))
+            return  newX
+        }
+        return   a + b
+    }
+
+
+  function overloadedFunc(a=[1,2,3], b=2, z = func()){
+          if (Array.isArray(a)) {
+              const newX = a.map(a=>(a*b))
+              return  newX
+          }
+          return   a * b
   }
+
+
+  console.log(overloadedFunc(func.sum));
 
 
 </script>
