@@ -15,27 +15,11 @@
 
 
 <script>
-    function overloadedFunc(
-        arg1 = [1, 2, 3],
-        arg2 = 2,
-        arg3 = function (arg1, arg2) {
-            if (Array.isArray(arg1)) {
-                return arg1.map(al => al * y)
-            }
-            return arg1 * arg2
-        }
-    ) {
-        return arg3(arg1, arg2)
-    }
 
-    function func(arg1, arg2) {
-        if (Array.isArray(arg1)) {
-            return arg1.map(al => al + arg2)
-        }
-        return arg1 + arg2
-    }
+  function overloadedFunc(x=[1,2,3], y=2, z){
+  // your code
+  }
 
-    console.log(overloadedFunc(undefined, 2, func))
 
 </script>
 
