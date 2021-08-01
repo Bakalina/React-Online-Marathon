@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+
 
 <!--Using the default parameter technique, overload the overloadedFunc() function, -->
 <!--which takes 3 arguments. For the 1st argument of the function set the default value [1, 2, 3],-->
@@ -11,17 +6,17 @@
 <!--and the function can multiply both arrays and numbers.-->
 
 
-<body>
 
 
-<script>
-
-  function overloadedFunc(x=[1,2,3], y=2, z){
-  // your code
+  function overloadedFunc(arg1=[1,2,3], arg2=2, arg3 = (arg1,arg2) => {
+          let res;
+    if (Array.isArray(arg1)) {
+          res = arg1.map(le => le * arg2)
+          return res
+      } return arg1 * arg2
+  }){
+      return arg3(arg1,arg2)
   }
 
 
-</script>
-
-</body>
-</html>
+  console.log(overloadedFunc())
